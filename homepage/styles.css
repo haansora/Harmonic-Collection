@@ -1,0 +1,751 @@
+*{
+    box-sizing: border-box; 
+    margin:0px;
+}
+
+p{
+    font-family: "komet", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h2,
+h3{
+    font-family: "komet", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+/* ///////////HEADER//////////// */
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+
+    background-color: black;
+    height:55px;
+
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+
+    padding-right:50px;
+    padding-left:50px;
+}
+
+.header-logo{
+    padding-left:90px;
+
+    width:40%;
+    height:100%;
+
+    background-image: url(https://i.imgur.com/Or7GS73.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: 0px;
+    background-position-y: center;
+}
+.header-logo:hover{
+    cursor:pointer;
+}
+.header-em{
+    width:45%;
+    height:100%;
+}
+.header-buttons{
+    width:15%;
+    height:100%;
+
+    display:flex;
+    flex-direction: row;
+    
+    padding: 13px;
+}
+.random-button{
+    border: white solid 1px;
+    border-radius: 15px;
+    background-color: rgb(83, 83, 83);
+
+    flex-grow:1;
+    height:100%;
+    margin-left: 10px;
+}
+.header-buttons p{
+    color:white;
+    text-align: center;
+    font-size: 15px;
+
+    transform: translateY(25%)
+    
+}
+.random-button:hover{
+    background-color: white;
+    cursor: pointer;  
+}
+.header-buttons p:hover{
+    color:black;
+}
+
+
+/* ///////////CONTENT//////////// */
+
+.content{
+    background: linear-gradient(to bottom, #03092b, black);
+    position:absolute;
+    top:55px;
+
+    width:100%;
+}
+
+.hero-container{
+    width:100%;
+    height:450px;;
+
+    background-color: red;
+
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    flex:1;
+    height:100%;
+
+    animation: hero-animation-text 13s ease-in-out infinite 0s;
+}
+.image{
+    flex:2;
+    height:100%;
+
+    animation: hero-animation-image 13s ease-in-out infinite 0s;
+}
+
+@keyframes hero-animation-text {
+    0%{
+        background-color: red;
+        flex:1;
+        background-image: url("https://i.imgur.com/rqt03dk.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    10%{
+        background-color: red;
+        flex:1;
+        background-image: url("https://i.imgur.com/rqt03dk.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    18%{
+        background-color: orange;
+        flex:2;
+        background-image: url("https://i.imgur.com/ts861Yh.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    43%{
+        background-color: orange;
+        flex:2;
+        background-image: url("https://i.imgur.com/ts861Yh.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    51%{
+        background-color: yellow;
+        flex:3;
+        background-image: url("https://i.imgur.com/pXJPDYZ.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    76%{
+        background-color: yellow;
+        flex:3;
+        background-image: url("https://i.imgur.com/pXJPDYZ.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    84%{
+        background-color: red;
+        flex:1;
+        background-image: url("https://i.imgur.com/rqt03dk.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-color: red;
+        flex:1;
+        background-image: url("https://i.imgur.com/rqt03dk.png");
+        background-repeat: no-repeat;
+        background-size: 105%;
+        background-size: cover;
+    }
+}
+
+@keyframes hero-animation-image {
+    0%{
+        background-color: blue;
+        flex:2;
+        background-image: url("https://i.imgur.com/Hx4slOj.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+    }
+    10%{
+        background-color: blue;
+        flex:2;
+        background-image: url("https://i.imgur.com/Hx4slOj.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+    }
+    18%{
+        background-color: violet;
+        flex:1;
+        background-image: url("https://i.imgur.com/yKKCMbw.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+    }
+    43%{
+        background-color: violet;
+        flex:1;
+        background-image: url("https://i.imgur.com/yKKCMbw.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+    }
+    51%{
+        background-color: pink;
+        flex:3;
+        background-image: url("https://i.imgur.com/ApGTUKD.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+    }
+    76%{
+        background-color: pink;
+        flex:3;
+        background-image: url("https://i.imgur.com/ApGTUKD.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+    }
+    84%{
+        background-color: blue;
+        flex:2;
+        background-image: url("https://i.imgur.com/Hx4slOj.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+    }
+    100%{
+        background-color: blue;
+        flex:2;
+        background-image: url("https://i.imgur.com/Hx4slOj.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+    }
+
+}
+
+
+.poster-container{
+    width:100%;
+
+    padding-right:70px;
+    padding-left: 70px;
+    padding-top: 100px;
+}
+
+
+.one{
+    width:100%;
+    height:700px;
+
+    display:flex;
+    flex-direction: row;
+
+    padding-left: 30px;
+    margin-bottom: 70px;
+
+}
+
+
+.two{
+    width:100%;
+    height:400px;
+
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+
+    justify-content: flex-end;
+
+    margin-bottom: 70px;
+}
+
+.three{
+    width:100%;
+    height:400px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    justify-content: flex-start;
+
+    margin-bottom: 70px;
+}
+
+.one2{
+    width:100%;
+    height:700px;
+
+    display:flex;
+    flex-direction: row;
+
+    padding-right: 30px;
+    margin-bottom: 70px;
+    
+    justify-content: flex-end;
+}
+
+
+.two2{
+    width:100%;
+    height:400px;
+
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+
+    justify-content: flex-start;
+
+    margin-bottom: 70px;
+}
+
+.three2{
+    width:100%;
+    height:400px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    justify-content: flex-end;
+
+    margin-bottom: 70px;
+}
+
+.poster{
+    aspect-ratio: 5 / 8;
+    background-color: rgb(75, 75, 75);
+}
+
+.link{
+    height: 100%;
+    width:100%;
+}
+
+
+.Dune{
+    background-image: url("https://i.imgur.com/KzlwLlh.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Dune:hover{
+    animation: Dune-animation 4s infinite 0s;
+}
+
+.Soul{
+    background-image: url("https://i.imgur.com/knrb6mT.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Soul:hover{
+    animation: Soul-animation 4s infinite 0s;
+}
+
+.InsideOut{
+    background-image: url("https://i.imgur.com/w4vXcma.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.InsideOut:hover{
+    animation: InsideOut-animation 4s infinite 0s;
+}
+
+.Barbie{
+    background-image: url("https://i.imgur.com/YK7eqLK.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Barbie:hover{
+    animation: Barbie-animation 4s infinite 0s;
+}
+
+.Avatar{
+    background-image: url("https://i.imgur.com/uEQ6Bft.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Avatar:hover{
+    animation: Avatar-animation 4s infinite 0s;
+}
+
+.Venom{
+    background-image: url("https://i.imgur.com/CWEJFQm.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Venom:hover{
+    animation: Venom-animation 4s infinite 0s;
+}
+
+.LittleWomen{
+    background-image: url("https://i.imgur.com/8lbRp3y.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.LittleWomen:hover{
+    animation: LittleWomen-animation 4s infinite 0s;
+}
+
+
+
+@keyframes Soul-animation {
+    0%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/MHan5DY.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+    20%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/MHan5DY.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    35%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/lSb89SP.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    70%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/lSb89SP.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    85%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/MHan5DY.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    100%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/MHan5DY.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@keyframes Dune-animation {
+    0%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/r2ddEhz.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+    20%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/r2ddEhz.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    35%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/C83WIJe.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    70%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/C83WIJe.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    85%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/r2ddEhz.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    100%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/r2ddEhz.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+@keyframes Barbie-animation {
+    0%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/NMofjJl.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+    20%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/NMofjJl.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    35%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/c21y1eD.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    70%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/c21y1eD.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    85%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/NMofjJl.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    100%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/NMofjJl.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }   
+}
+@keyframes InsideOut-animation {
+    0%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/ZWC07hR.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+    20%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/ZWC07hR.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    35%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/z41uVO6.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    70%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/z41uVO6.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    85%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/ZWC07hR.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    100%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/ZWC07hR.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }   
+}
+@keyframes Avatar-animation {
+    0%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/w82bsUS.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+    20%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/w82bsUS.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    35%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/SfE22ew.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    70%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/SfE22ew.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    85%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/w82bsUS.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    100%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/w82bsUS.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }   
+}
+@keyframes Venom-animation {
+    0%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/tGwXDvy.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+    20%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/tGwXDvy.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    35%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/hqfAtVE.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    70%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/hqfAtVE.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    85%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/tGwXDvy.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    100%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/tGwXDvy.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }   
+}
+@keyframes LittleWomen-animation {
+    0%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/FWb57Tv.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+    20%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/FWb57Tv.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    35%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/BvvLnAi.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    70%{
+        transform: rotate(-3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/BvvLnAi.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    85%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/FWb57Tv.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    100%{
+        transform: rotate(3deg) scale(1.07);
+        background-image: url("https://i.imgur.com/FWb57Tv.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }   
+}
+
+
+
+
+.footer-container{
+    width:100%;
+    height:300px;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    width:100%;
+    height:100%;
+
+    padding-right:50px;
+    padding-left:90px;
+    padding-bottom:70px;
+}
+.footer-logo{
+    position: relative;
+    width:30%;
+
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo-em{
+    height:45%;
+}
+.footer-logo p{
+    height:20%;
+    color:white;
+}
+.footer-logo-image{
+    height:35%;
+    background-image: url("https://i.imgur.com/8Qb9Klh.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-x:-20px;
+    background-position-y:-20px;
+}
+.footer-em{
+    width:20%;
+}
+.footer-des{
+    position:relative;
+    width:50%;
+}
+.footer-des p{
+    position:absolute;
+    width:100%;
+    left:0px;
+    bottom:0px;
+
+    font-size: 12px;
+
+    color:rgb(191, 191, 191);
+}
