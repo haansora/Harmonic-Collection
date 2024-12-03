@@ -20,6 +20,7 @@ h3{
 
 /* ///////////HEADER//////////// */
 
+
 .header{
     display: flex;
     flex-direction: row;
@@ -89,10 +90,11 @@ h3{
     color:black;
 }
 
+
 /* ///////////CONTENT//////////// */
 
 .content{
-    background: linear-gradient(to bottom, #ffdceb, #b81582);
+    background: linear-gradient(to bottom, #151515, black);
     position:absolute;
     top:55px;
 
@@ -106,20 +108,22 @@ h3{
 
 }
 .hero-image{
-    background-color: lightgreen;
+    background-color: gray;
     width:100%;
     height:100%;
 
-    background-image: url("https://i.imgur.com/VyFr9Dd.jpeg");
+    background-image: url("https://i.imgur.com/1JN7j9s.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    position:relative;
 }
 
 
 .two{
 
-    color: #F400A3;
+    color: #a8a8a8;
     width:100%;
     height:100px;
     margin-top: 70px;
@@ -159,13 +163,13 @@ h3{
     padding-right: 100px;
     padding-left: 100px;
 
-    position: relative;
+    position:relative;
 }
 .analysis{
     width:100%;
     height:100%;
 
-    background-image: url("https://i.imgur.com/tKXGiJL.png");
+    background-image: url("https://i.imgur.com/oPOkvRn.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -173,20 +177,18 @@ h3{
     transition:all 0.2s ease-out;
 }
 .hover-spot{
-    position:absolute;
+    position: absolute;
+    width:12%;
+    height:25%;
 
-    top:21%;
-    left:28%;
-
-    width:20%;
-    height:36%;
+    top:50%;
+    right:40%;
 }
-.hover-spot:hover ~ .analysis{
-    background-image: url("https://i.imgur.com/92howoo.png");
-
+.hover-spot:hover ~.analysis{
+    background-image: url("https://i.imgur.com/3rKX6JV.jpeg");
+    
     transition:all 0.2s ease-out;
 }
-
 
 .four{
     width:100%;
@@ -203,26 +205,26 @@ h3{
     height:100%;
 }
 .row1{
-    flex-grow: 1;
+    flex: 1;
     margin-bottom: 20px;
 
     display: flex;
     flex-direction:row;
 }
 .row2{
-    flex-grow: 1;
+    flex: 1;
     margin-bottom: 20px;
 
     display: flex;
     flex-direction:row;
 }
 .row3{
-    flex-grow: 1;
+    flex: 1;
     display: flex;
     flex-direction:row;
 }
 .img{
-    flex-grow: 1;
+    flex: 1;
     background-color: black;
 }
 .first{
@@ -246,65 +248,45 @@ h3{
     transition:all 0.3s ease-in-out;
 }
 .img1{
-    background-image: url("https://i.imgur.com/JYoCAiz.png");
+    background-image: url("https://i.imgur.com/kDDPA3E.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .img2{
-    background-image: url("https://i.imgur.com/NifOZWn.png");
+    background-image: url("https://i.imgur.com/mjrtBdp.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-.img3{
-    background-image: url("https://i.imgur.com/MusRxtx.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.img4{
-    background-image: url("https://i.imgur.com/gBx27fD.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.img5{
-    position: relative;
-    display: flex;
 
+    display:flex;
+    position: relative;
+    
+    text-align: center;
     align-items: center;
     justify-content: center;
 
-    background-image: url("https://i.imgur.com/7ef0hCc.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 /* DOWNLOAD BUTTON */
-.img5-hover{
+.img2-hover{
     position:absolute;
     z-index: 10;
-    top:10%;
+
+    top: 20%;
+    left: 40%;
 
     width:60px;
     height:60px;
 }
 .download-logo{
-    position: absolute;
-    top:20%;
-
-    color:black;
-    -webkit-text-stroke: outside;
-    -webkit-text-stroke: 1px white;
-    paint-order: stroke fill;
+    color:white;
     font-size: 25px;
     opacity:0;
 }
 .download-logo:hover{
     cursor: default;
 }
-.img5-hover:hover ~ .download-logo{
+.img2-hover:hover ~ .download-logo{
     opacity:1;
     font-size: 25px;
 
@@ -314,12 +296,27 @@ h3{
     width:100%;
     height:100%;
 }
-.download-button{
-    cursor:grab;
-}
 /* END DOWNLOAD BUTTON */
+.img3{
+    background-image: url("https://i.imgur.com/EcNr1WU.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img4{
+    background-image: url("https://i.imgur.com/CAXniEn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img5{
+    background-image: url("https://i.imgur.com/pK21HtU.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .img6{
-    background-image: url("https://i.imgur.com/AoElaxH.png");
+    background-image: url("https://i.imgur.com/XZ0EmCm.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -335,12 +332,11 @@ h3{
     position:relative;
     display:flex;
 
-    background-image: url("https://i.imgur.com/MusRxtx.png");
+    background-image: url("https://i.imgur.com/CAXniEn.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-position-y: 0%;
-
 }
 .learn-more{
 
@@ -382,17 +378,14 @@ h3{
     padding-bottom:70px;
 }
 .footer-logo{
-    position: relative;
-    width:30%;
-
     display: flex;
     flex-direction: column;
+    width:30%;
 }
 .footer-logo-em{
     height:45%;
 }
 .footer-logo p{
-    height:20%;
     color:white;
 }
 .footer-logo-image{
@@ -423,6 +416,7 @@ h3{
 
 
 
+
 /* MOBILE VIEW */
 @media screen and (max-width: 570px) {
     .header{
@@ -432,7 +426,7 @@ h3{
     .header-logo{
         width:60%;
         height:100%;
-        
+
         padding-left:90px;
     
         background-size: 210px;
@@ -454,8 +448,6 @@ h3{
         padding-left: 5px;
     }
 
-
-    
     .one{
         height:300px;
     }
@@ -477,13 +469,13 @@ h3{
         padding:0px;
     }
     .hover-spot{
-        position:absolute;
+        position: absolute;
+
+        width:27%;
+        height:25%;
     
-        top:25%;
-        left:5%;
-    
-        width:40%;
-        height:30%;
+        top:45%;
+        left:38%;
     }
 
     .four{
@@ -522,6 +514,7 @@ h3{
         margin-right: 40px;
     }
 
+    
     .five{
         margin-top:40px;
     }
