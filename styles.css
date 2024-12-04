@@ -104,7 +104,7 @@ h3{
 .content{
     /* background: linear-gradient(to bottom, #03092b, black); */
 
-    background-image: url("https://i.imgur.com/B8c3Iqq.png");
+    background-image: url("https://i.imgur.com/qgiZnwv.jpeg");
     background-position: 100%;
     background-repeat: none;
     z-index: -10;
@@ -362,7 +362,7 @@ h3{
 }
 
 .Soul{
-    background-image: url("https://i.imgur.com/knrb6mT.jpeg");
+    background-image: url("https://i.imgur.com/3BHr6EF.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -446,38 +446,38 @@ h3{
 @keyframes Soul-animation {
     0%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/MHan5DY.jpeg");
+        background-image: url("https://i.imgur.com/Q0F0wqL.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
 
     }
     20%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/MHan5DY.jpeg");
+        background-image: url("https://i.imgur.com/Q0F0wqL.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     35%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/lSb89SP.jpeg");
+        background-image: url("https://i.imgur.com/bSG0Bj3.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     70%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/lSb89SP.jpeg");
+        background-image: url("https://i.imgur.com/bSG0Bj3.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     85%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/MHan5DY.jpeg");
+        background-image: url("https://i.imgur.com/Q0F0wqL.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/MHan5DY.jpeg");
+        background-image: url("https://i.imgur.com/Q0F0wqL.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
