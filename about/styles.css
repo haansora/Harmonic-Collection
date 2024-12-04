@@ -124,8 +124,8 @@ h3{
     height:400px;
 
     margin-bottom: 70px;
-    padding-right:100px;
-    padding-left:100px;
+    padding-right:70px;
+    padding-left:70px;
     
     display: flex;
 }
@@ -133,7 +133,7 @@ h3{
     width:70%;
     height:100%;
 
-    background-color: black;
+    background-color: grey;
 }
 .bad1{
     justify-content: flex-end;
@@ -143,6 +143,25 @@ h3{
 }
 .good{
     justify-content: flex-end;
+}
+.image-caption{
+    opacity: 0%;
+    background-color: black;
+    color:white;
+    width:50%;
+    height:100%;
+
+    padding: 35px;
+    padding-bottom:50px;
+
+    display: flex;
+    align-items: flex-end;
+
+    font-size: 16px;
+    line-height: 23px;
+}
+.image-caption:hover{
+    opacity:100%;
 }
 
 
