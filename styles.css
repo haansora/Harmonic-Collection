@@ -353,7 +353,7 @@ h3{
 
 
 .Dune{
-    background-image: url("https://i.imgur.com/KzlwLlh.jpeg");
+    background-image: url("https://i.imgur.com/pUPhtTn.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -362,7 +362,7 @@ h3{
 }
 
 .Soul{
-    background-image: url("https://i.imgur.com/3BHr6EF.jpeg");
+    background-image: url("https://i.imgur.com/ldA4Kwy.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -371,7 +371,7 @@ h3{
 }
 
 .InsideOut{
-    background-image: url("https://i.imgur.com/w4vXcma.jpeg");
+    background-image: url("https://i.imgur.com/EF9RHs3.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -380,7 +380,7 @@ h3{
 }
 
 .Barbie{
-    background-image: url("https://i.imgur.com/YK7eqLK.jpeg");
+    background-image: url("https://i.imgur.com/3a92GC1.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -389,7 +389,7 @@ h3{
 }
 
 .Avatar{
-    background-image: url("https://i.imgur.com/uEQ6Bft.jpeg");
+    background-image: url("https://i.imgur.com/7nOUD5u.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -398,7 +398,7 @@ h3{
 }
 
 .Venom{
-    background-image: url("https://i.imgur.com/CWEJFQm.jpeg");
+    background-image: url("https://i.imgur.com/tQiOxhO.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -407,7 +407,7 @@ h3{
 }
 
 .LittleWomen{
-    background-image: url("https://i.imgur.com/8lbRp3y.jpeg");
+    background-image: url("https://i.imgur.com/aFir8Tu.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -416,7 +416,7 @@ h3{
 }
 
 .Executioner{
-    background-image: url("https://i.imgur.com/adBJnDK.jpeg");
+    background-image: url("https://i.imgur.com/PhKdZ1E.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -425,7 +425,7 @@ h3{
 }
 
 .Uprising{
-    background-image: url("https://i.imgur.com/PFo9pO2.jpeg");
+    background-image: url("https://i.imgur.com/DD7VYBz.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -434,7 +434,7 @@ h3{
 }
 
 .Carter{
-    background-image: url("https://i.imgur.com/JE3Be4p.jpeg");
+    background-image: url("https://i.imgur.com/JT3s03z.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -446,38 +446,38 @@ h3{
 @keyframes Soul-animation {
     0%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/Q0F0wqL.jpeg");
+        background-image: url("https://i.imgur.com/xEdNN9v.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
 
     }
     20%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/Q0F0wqL.jpeg");
+        background-image: url("https://i.imgur.com/xEdNN9v.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     35%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/bSG0Bj3.jpeg");
+        background-image: url("https://i.imgur.com/u8QC4CQ.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     70%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/bSG0Bj3.jpeg");
+        background-image: url("https://i.imgur.com/u8QC4CQ.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     85%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/Q0F0wqL.jpeg");
+        background-image: url("https://i.imgur.com/xEdNN9v.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/Q0F0wqL.jpeg");
+        background-image: url("https://i.imgur.com/xEdNN9v.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -486,38 +486,38 @@ h3{
 @keyframes Dune-animation {
     0%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/r2ddEhz.jpeg");
+        background-image: url("https://i.imgur.com/Bierozp.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
 
     }
     20%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/r2ddEhz.jpeg");
+        background-image: url("https://i.imgur.com/Bierozp.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     35%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/C83WIJe.jpeg");
+        background-image: url("https://i.imgur.com/8KhZ56z.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     70%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/C83WIJe.jpeg");
+        background-image: url("https://i.imgur.com/8KhZ56z.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     85%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/r2ddEhz.jpeg");
+        background-image: url("https://i.imgur.com/Bierozp.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/r2ddEhz.jpeg");
+        background-image: url("https://i.imgur.com/Bierozp.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -525,38 +525,38 @@ h3{
 @keyframes Barbie-animation {
     0%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/NMofjJl.jpeg");
+        background-image: url("https://i.imgur.com/yJLSuhD.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
 
     }
     20%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/NMofjJl.jpeg");
+        background-image: url("https://i.imgur.com/yJLSuhD.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     35%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/c21y1eD.jpeg");
+        background-image: url("https://i.imgur.com/E3WgK4p.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     70%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/c21y1eD.jpeg");
+        background-image: url("https://i.imgur.com/E3WgK4p.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     85%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/NMofjJl.jpeg");
+        background-image: url("https://i.imgur.com/yJLSuhD.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/NMofjJl.jpeg");
+        background-image: url("https://i.imgur.com/yJLSuhD.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }   
@@ -564,38 +564,38 @@ h3{
 @keyframes InsideOut-animation {
     0%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/ZWC07hR.jpeg");
+        background-image: url("https://i.imgur.com/C5Nqqnc.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
 
     }
     20%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/ZWC07hR.jpeg");
+        background-image: url("https://i.imgur.com/C5Nqqnc.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     35%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/z41uVO6.jpeg");
+        background-image: url("https://i.imgur.com/w482Xfv.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     70%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/z41uVO6.jpeg");
+        background-image: url("https://i.imgur.com/w482Xfv.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     85%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/ZWC07hR.jpeg");
+        background-image: url("https://i.imgur.com/C5Nqqnc.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/ZWC07hR.jpeg");
+        background-image: url("https://i.imgur.com/C5Nqqnc.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }   
@@ -603,38 +603,38 @@ h3{
 @keyframes Avatar-animation {
     0%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/w82bsUS.jpeg");
+        background-image: url("https://i.imgur.com/jEHODVF.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
 
     }
     20%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/w82bsUS.jpeg");
+        background-image: url("https://i.imgur.com/jEHODVF.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     35%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/SfE22ew.jpeg");
+        background-image: url("https://i.imgur.com/d7VwSZj.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     70%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/SfE22ew.jpeg");
+        background-image: url("https://i.imgur.com/d7VwSZj.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     85%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/w82bsUS.jpeg");
+        background-image: url("https://i.imgur.com/jEHODVF.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/w82bsUS.jpeg");
+        background-image: url("https://i.imgur.com/jEHODVF.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }   
@@ -642,38 +642,38 @@ h3{
 @keyframes Venom-animation {
     0%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/tGwXDvy.jpeg");
+        background-image: url("https://i.imgur.com/FixfBvS.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
 
     }
     20%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/tGwXDvy.jpeg");
+        background-image: url("https://i.imgur.com/FixfBvS.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     35%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/hqfAtVE.jpeg");
+        background-image: url("https://i.imgur.com/YUwNUKW.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     70%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/hqfAtVE.jpeg");
+        background-image: url("https://i.imgur.com/YUwNUKW.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     85%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/tGwXDvy.jpeg");
+        background-image: url("https://i.imgur.com/FixfBvS.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/tGwXDvy.jpeg");
+        background-image: url("https://i.imgur.com/FixfBvS.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }   
@@ -681,38 +681,38 @@ h3{
 @keyframes LittleWomen-animation {
     0%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/FWb57Tv.jpeg");
+        background-image: url("https://i.imgur.com/0Dmaqsw.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
 
     }
     20%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/FWb57Tv.jpeg");
+        background-image: url("https://i.imgur.com/0Dmaqsw.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     35%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/BvvLnAi.jpeg");
+        background-image: url("https://i.imgur.com/VTp8J88.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     70%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/BvvLnAi.jpeg");
+        background-image: url("https://i.imgur.com/VTp8J88.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     85%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/FWb57Tv.jpeg");
+        background-image: url("https://i.imgur.com/0Dmaqsw.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/FWb57Tv.jpeg");
+        background-image: url("https://i.imgur.com/0Dmaqsw.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }   
@@ -720,38 +720,38 @@ h3{
 @keyframes Executioner-animation {
     0%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/JmRYhJB.jpeg");
+        background-image: url("https://i.imgur.com/kH7tERp.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
 
     }
     20%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/JmRYhJB.jpeg");
+        background-image: url("https://i.imgur.com/kH7tERp.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     35%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/GgNkTmb.jpeg");
+        background-image: url("https://i.imgur.com/blrfBQZ.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     70%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/GgNkTmb.jpeg");
+        background-image: url("https://i.imgur.com/blrfBQZ.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     85%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/JmRYhJB.jpeg");
+        background-image: url("https://i.imgur.com/kH7tERp.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/JmRYhJB.jpeg");
+        background-image: url("https://i.imgur.com/kH7tERp.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }   
@@ -759,38 +759,38 @@ h3{
 @keyframes Uprising-animation {
     0%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/OdwszLA.jpeg");
+        background-image: url("https://i.imgur.com/EdlVor3.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
 
     }
     20%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/OdwszLA.jpeg");
+        background-image: url("https://i.imgur.com/EdlVor3.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     35%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/Dj14t4G.jpeg");
+        background-image: url("https://i.imgur.com/vPVMUNj.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     70%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/Dj14t4G.jpeg");
+        background-image: url("https://i.imgur.com/vPVMUNj.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     85%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/OdwszLA.jpeg");
+        background-image: url("https://i.imgur.com/EdlVor3.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/OdwszLA.jpeg");
+        background-image: url("https://i.imgur.com/EdlVor3.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }   
@@ -798,38 +798,38 @@ h3{
 @keyframes Carter-animation {
     0%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/bDGJfbU.jpeg");
+        background-image: url("https://i.imgur.com/tXXzf9D.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
 
     }
     20%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/bDGJfbU.jpeg");
+        background-image: url("https://i.imgur.com/tXXzf9D.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     35%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/5A0e0As.jpeg");
+        background-image: url("https://i.imgur.com/9rgnNae.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     70%{
         transform: rotate(-3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/5A0e0As.jpeg");
+        background-image: url("https://i.imgur.com/9rgnNae.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     85%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/bDGJfbU.jpeg");
+        background-image: url("https://i.imgur.com/tXXzf9D.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
     100%{
         transform: rotate(3deg) scale(1.07);
-        background-image: url("https://i.imgur.com/bDGJfbU.jpeg");
+        background-image: url("https://i.imgur.com/tXXzf9D.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
     }   
